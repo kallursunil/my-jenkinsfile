@@ -1,5 +1,5 @@
 pipeline {
-	agent { node { label 'jenkins_slave3' } }
+	agent { node { label 'slave1' } }
 		stages {
 			stage ('CleanWorkSpace') {
 				steps {
